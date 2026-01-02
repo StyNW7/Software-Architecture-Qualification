@@ -14,3 +14,8 @@ npx ts-node "./Design-Pattern/Case-3-Behavioural-Pattern/Observer-Pattern.ts"
 npx tsc "./Design-Pattern/Case-1-Creational-Pattern/Builder-Pattern.ts"
 
 node "./Design-Pattern/Case-1-Creational-Pattern/Builder-Pattern.js"
+
+
+### Microservices App
+
+npx prisma migrate dev --name init_post_db
