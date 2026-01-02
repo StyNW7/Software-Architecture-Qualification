@@ -19,3 +19,7 @@ node "./Design-Pattern/Case-1-Creational-Pattern/Builder-Pattern.js"
 ### Microservices App
 
 npx prisma migrate dev --name init_post_db
+
+http://localhost:3001/api
+
+npx prisma studio
