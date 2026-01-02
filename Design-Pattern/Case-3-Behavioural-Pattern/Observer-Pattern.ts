@@ -66,7 +66,7 @@ class PanicSeller implements Investor {
     }
 }
 
-// --- CLIENT CODE ---
+// RUN CODE
 console.log("\n--- CASE 3: OBSERVER PATTERN ---");
 
 const bitcoinMarket = new BitcoinTracker();

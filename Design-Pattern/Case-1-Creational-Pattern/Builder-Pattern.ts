@@ -86,7 +86,7 @@ class TravelAgent {
     }
 }
 
-// --- CLIENT CODE (Paste this at the bottom of your file) ---
+// RUN CODE
 
 console.log("--- CASE 1: BUILDER PATTERN EXECUTION ---");
 
@@ -99,6 +99,7 @@ const director = new TravelAgent(builder);
 // 3. Order a Luxury Trip
 console.log("\nCreating Luxury Trip:");
 director.createLuxuryBaliTrip();
+
 // Get the result
 const luxuryTrip = builder.getProduct();
 luxuryTrip.showDetails();
@@ -106,6 +107,7 @@ luxuryTrip.showDetails();
 // 4. Order a Backpacker Trip
 console.log("\nCreating Backpacker Trip:");
 director.createBackpackerTrip();
+
 // Get the result
 const backpackerTrip = builder.getProduct();
 backpackerTrip.showDetails();

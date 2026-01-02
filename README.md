@@ -1,15 +1,23 @@
 # Software Architecture
 
-### Design Pattern CMD
+### Design Pattern
 
-npx ts-node "./Design-Pattern/Case-1-Creational-Pattern/Builder-Pattern.ts"
+You can follow this to run the code (in the root folder):
 
-npx ts-node "./Design-Pattern/Case-2-Structural-Pattern/Adapter-Pattern.ts"
+Case 1: 
 
-npx ts-node "./Design-Pattern/Case-3-Behavioural-Pattern/Observer-Pattern.ts"
+<code>npx ts-node "./Design-Pattern/Case-1-Creational-Pattern/Builder-Pattern.ts"</code>
+
+Case 2:
+
+<code>npx ts-node "./Design-Pattern/Case-2-Structural-Pattern/Adapter-Pattern.ts"</code>
+
+Case 3:
+
+<code>npx ts-node "./Design-Pattern/Case-3-Behavioural-Pattern/Observer-Pattern.ts"</code>
 
 
-#### Convert to JavaScript first
+#### Design Pattern: Convert to JavaScript first (If want to)
 
 npx tsc "./Design-Pattern/Case-1-Creational-Pattern/Builder-Pattern.ts"
 

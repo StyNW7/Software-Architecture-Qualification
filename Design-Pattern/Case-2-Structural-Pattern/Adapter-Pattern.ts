@@ -25,7 +25,7 @@ class SDCardToUSBCAdapter implements USBCPort {
 
     public connectUSBC(): void {
         console.log("Adapter plugged into USB-C port.");
-        this.oldCard.insertIntoSDSlot(); // Translating the connection
+        this.oldCard.insertIntoSDSlot();
     }
 
     public readData(): void {
@@ -34,7 +34,10 @@ class SDCardToUSBCAdapter implements USBCPort {
     }
 }
 
-// --- CLIENT CODE ---
+
+
+// RUN CODE
+
 console.log("\n--- CASE 2: ADAPTER PATTERN ---");
 
 // The new laptop only knows how to use USBCPort
